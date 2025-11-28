@@ -12,6 +12,8 @@ def div(a, b):
         return a / b
     return "Division by zero."
 
+def modulo(a, b):
+    return a % b
 
 if __name__ == "__main__":
     print("Add:", add(5, 3))
